@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    font-family: Montserrat;
+ }
+
+ header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-logo {
+    color: aliceblue;
+    font-size: 16px;
+}
+.header-search {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 0 15px;
+}
+/* 
+.categories{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 20px;
+}
+.text{
+    width: 310px;
+} */
+ #btn{
+    padding: 10px 20px;
+    background-color: #6C3EB8;
+    color: white;
+    border-bottom: transparent;
+}
+.trending{
+    margin: 50px ;
+    padding-left: 30px;
+}
+
+
+.santa{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+
+.card{
+    background-color: black;
+}
+
+#price{
+    color:#6C3EB8;
+}
+
+.card-text{
+    background: rgba(33, 33, 35, 1);
+color: aliceblue;
+}
+
+.footer-img{
+    background-color: aliceblue;
+    color: aliceblue;
+}
